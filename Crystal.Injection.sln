@@ -5,7 +5,11 @@ VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Crystal.Abstraction", "Crystal.Abstraction\Crystal.Abstraction.csproj", "{5E283ECD-28B8-46EA-B132-6C1A753833C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crystal.Container", "Crystal.Container\Crystal.Container.csproj", "{6B7E79C8-83A1-4706-90BC-28130B49EED7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Crystal.Container", "Crystal.Container\Crystal.Container.csproj", "{6B7E79C8-83A1-4706-90BC-28130B49EED7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{0377E859-3BAF-4F71-9CC7-FAEA141D687E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex01", "Examples\Ex01\Ex01.csproj", "{69BF1B65-795E-404E-BE1D-0DCD8038D008}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,9 +25,16 @@ Global
 		{6B7E79C8-83A1-4706-90BC-28130B49EED7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B7E79C8-83A1-4706-90BC-28130B49EED7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B7E79C8-83A1-4706-90BC-28130B49EED7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69BF1B65-795E-404E-BE1D-0DCD8038D008}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69BF1B65-795E-404E-BE1D-0DCD8038D008}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69BF1B65-795E-404E-BE1D-0DCD8038D008}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69BF1B65-795E-404E-BE1D-0DCD8038D008}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{69BF1B65-795E-404E-BE1D-0DCD8038D008} = {0377E859-3BAF-4F71-9CC7-FAEA141D687E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {209B27BF-36C9-465E-B1F4-668AE6A7C627}
